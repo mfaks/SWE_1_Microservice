@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link href="../style.css" rel="stylesheet">
+    <script src="../login_check.js"></script>
+    <script src="../accountRequired.js"></script>
+    <script src="leaderboard.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Minigame Site</h1>
+    </header>
+    <nav id="navbar">
+        <a href="../index.html">Home</a>
+        <a class="current" href="../Lobbies/private_lobbies.html">Private Lobbies</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a id="loginProfile" href="../Login/login.html">Login</a>
+    </nav>
+    <section id="leaderboard">
+        <!--This section send get request to server-->
+        <p id="noAccount">To be able to track your stats, please <a id="loginProfile" href="../Login/login.html">sign in</a> or <a href="../Login/newaccount.html">create an account</a></p>
+        <h2>Global Leaderboard</h2>
+        <table id="globalLeaderboard">
+            <tr>
+                <th>Ranking</th>
+                <th>Player Name</th>
+                <th>Games Won</th>
+                <th>Games Played</th>
+            </tr>
+        </table>
+        <h2>Your Stats</h2>
+        <table id="userStats">
+            <tr>
+                <th>Player Name</th>
+                <th>Games Won</th>
+                <th>Games Played</th>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>Created by Justin Pham</p>
+    </footer>
+</body>
+</html>

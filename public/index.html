@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="login_check.js"></script>
+    <script src="keyboard_read.js"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Minigame Site</h1>
+    </header>
+    <nav id="navbar">
+        <a class="current" href="index.html">Home</a>
+        <a href="Lobbies/private_lobbies.html">Private Lobbies</a>
+        <a href="Leaderboard/leaderboard.html">Leaderboard</a>
+        <a id="loginProfile" href="Login/login.html">Login</a>
+    </nav>
+    <section id="game">
+        <!--This section add Game-->
+        <canvas id="gameCanvas" width="800" height="600" style="border:1px solid black"></canvas>
+    </section>
+    <section id ="about">
+        <!--This section add instructions and about sections-->
+        <h1>Tutorial</h1>
+        <section id="interactiveControls">
+            <div class="interactive_key" id="W_key">
+                W
+            </div>
+            <div class="interactive_key" id="A_key">
+                A
+            </div>
+            <div class="interactive_key" id="S_key">
+                S
+            </div>
+            <div class="interactive_key" id="D_key">
+                D
+            </div>
+        </section>
+        <section id="Description">
+            <p>Key Bindings</p>
+            <ul>
+                <li>W: Jump</li>
+                <li>A: Move Left</li>
+                <li>S: Interact</li>
+                <li>D: Move Right</li>
+            </ul>
+        </section>
+    </section>
+    <footer>
+        <p>Created by Justin Pham</p>
+    </footer>
+</body>
+</html>
