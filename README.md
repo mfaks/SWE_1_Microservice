@@ -52,5 +52,5 @@ When you access leaderboard.html, it should automatically recieve data based on 
       }) 
 
 # **UML Sequence Diagram**
+![umldiagram](https://github.com/mfaks/SWE_1_Microservice/assets/91384685/9a3d04e9-225f-493c-9460-82744cec1b57)
 
-![umldiagram](https://github.com/justpham/SWE_Minigame_Site/assets/124479834/38e15b59-67af-40b7-b46c-eb525b114bb7)
